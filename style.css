@@ -1,0 +1,78 @@
+/* Umumiy sozlamalar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Container uchun umumiy sozlama */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header dizayni */
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+img{
+    border-radius: 35px;
+}
+
+.s1 .container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+b{
+    font-size: 26px;
+}
+.img{
+    width: 500px;
+}
+.text{
+    width: 460px;
+    height: 200px;
+    padding: 20px;
+    font-size: 20px;
+}
+header .container ol{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 100px;
+    font-size: 35px;
+    margin: 20px;
+}
+header .container ol li a{
+  text-decoration: none;
+  color: white;
+}
+header .container ol li a:hover{
+    color: orangered;
+    font-size: 40px;
+    transform: 2s;
+
+}
